@@ -1,0 +1,11 @@
+.carts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .carts {
+        grid-template-columns: 1fr;
+    }
+}
